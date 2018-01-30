@@ -1,0 +1,73 @@
+/* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+#map {
+    height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    /*display: none;*/
+    height: 100%;
+    width: 100%;
+}
+
+.ctrl {
+    width: 350px;
+    padding: 10px;
+    top: 5px !important;
+}
+
+.hide {
+    opacity: 0;
+    zoom: 0;
+}
+
+button#dir_Btn {
+    background: #2b6ce2;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 0px 2px 8px #00000069;
+    border: none;
+    cursor: pointer;
+    top: 5px !important;
+}
+
+button#dir_Btn:hover {
+    box-shadow: 0px 2px 8px #0000008f;
+    color: #e6e6e6;
+}
+
+#right-panel {
+    height: 100%;
+    float: right;
+    overflow: auto;
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#right-panel i {
+    font-size: 12px;
+}
+
+.show-right-panel {
+    width: 300px;
+    -webkit-transition: width 0.7s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.7s;
+}
+
+.hide-right-panel {
+    width: 0px;
+    -webkit-transition: width 0.7s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.7s;
+
+}
